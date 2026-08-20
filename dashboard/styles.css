@@ -31,6 +31,7 @@ body {
   margin: 0 0 8px;
   text-transform: uppercase;
 }
+.mode-badge { border: 1px solid currentColor; border-radius: 99px; font-size: 9px; margin-left: 8px; padding: 3px 7px; vertical-align: 1px; }
 h1 { font-size: clamp(30px, 4vw, 42px); line-height: 1.1; margin: 0 0 10px; }
 .subhead { color: var(--muted); margin: 0; max-width: 660px; }
 .controls { align-items: end; display: flex; flex-wrap: wrap; gap: 10px; justify-content: flex-end; }
@@ -45,6 +46,7 @@ select, input, button {
   padding: 0 12px;
 }
 button { background: var(--accent); border: 0; color: #071321; cursor: pointer; font-weight: 700; }
+button.secondary { background: transparent; border: 1px solid var(--accent); color: var(--accent); }
 main { margin: 0 auto; max-width: 1280px; padding: 0 28px 32px; }
 .status { color: var(--muted); margin: 0 0 14px; min-height: 20px; }
 .status.error { color: var(--red); }

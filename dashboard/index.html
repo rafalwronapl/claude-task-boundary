@@ -4,14 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Task Boundary FinOps</title>
-  <link rel="stylesheet" href="/assets/styles.css">
+  <link rel="stylesheet" href="./assets/styles.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
-  <script src="/assets/app.js" defer></script>
+  <script src="./assets/demo-data.js" defer></script>
+  <script src="./assets/app.js" defer></script>
 </head>
 <body>
   <header class="header">
     <div>
-      <p class="eyebrow">LLM engineering cost control</p>
+      <p class="eyebrow">LLM engineering cost control <span id="mode-badge" class="mode-badge">LIVE</span></p>
       <h1>Task Boundary FinOps</h1>
       <p class="subhead">Anonymous session metrics only. No prompts, responses, file paths, or project names leave a workstation.</p>
     </div>
@@ -30,6 +31,7 @@
         <input id="api-token" type="password" autocomplete="off" placeholder="optional">
       </label>
       <button id="refresh">Refresh</button>
+      <button id="export-csv" class="secondary">Export CSV</button>
     </div>
   </header>
   <main>

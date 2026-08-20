@@ -7,6 +7,9 @@
 Local task-boundary detection for Claude Code, OpenAI Codex CLI, and Gemini CLI
 sessions, with an optional FinOps dashboard for anonymous team metrics.
 
+Live dashboard demo (generated anonymous metrics only):
+https://rafalwronapl.github.io/cli-agent-task-boundary/
+
 The core question is simple: did the current assistant session drift into a new
 task, so it is time to compact, reset, or start a fresh session?
 
